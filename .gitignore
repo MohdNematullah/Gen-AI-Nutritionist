@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Streamlit logs
+.streamlit/
+
+# Pipenv
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# Local testing
+*.log
+*.tmp
+
+# Output files
+*.pdf
+*.csv
+*.json
+*.db
+*.sqlite3
+
+# Images or uploads
+uploads/
+*.png
+*.jpg
+*.jpeg
+
+# Google GenerativeAI Config (optional cache file)
+genai_cache/
